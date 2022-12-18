@@ -18,5 +18,6 @@ function sendEmail() {
 
 function clearForm() {
   // reset the forms
-  document.getElementById('contact-form').reset();
+  //document.getElementById('contact-form').reset();
+  location.reload();
 }
