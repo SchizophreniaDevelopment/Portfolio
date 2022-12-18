@@ -83,6 +83,13 @@
     input[type="submit"]:hover {
       background-color: #ba5fb6;
     }
+
+    li {
+      font-size: 16px;
+      color: #ccc;
+      margin: 10px;
+      font-weight: bold;
+    }
   }
     
   @media (prefers-color-scheme: light) {
@@ -168,6 +175,13 @@
     
     input[type="submit"]:hover {
       background-color: #45a049;
+    }
+
+    li {
+      font-size: 16px;
+      color: #333;
+      margin: 10px;
+      font-weight: bold;
     }
   }
   
