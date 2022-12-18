@@ -5,7 +5,7 @@ function sendEmail() {
   data.append('to', 'noah.t.scott06@gmail.com');
 
   // send the email using the Fetch API
-  fetch('https://formsubmit.co/noah.t.scott06@gmail.com', {
+  fetch('https://formsubmit.co/48a06cf0230887d82cb528f98924137e', {
     method: 'POST',
     body: data
   })
