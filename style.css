@@ -192,14 +192,7 @@
     display: flex;
     justify-content: center;
   }
-  
-  li {
-    font-size: 16px;
-    color: #333;
-    margin: 10px;
-    font-weight: bold;
-  }
-  
+
   img {
     display: block;
     margin: 0 auto;
