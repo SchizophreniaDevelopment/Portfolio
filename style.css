@@ -1,4 +1,19 @@
-body {
+@media (prefers-color-scheme: dark) {
+  /* Dark mode styles here */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #707070;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}
+  
+@media (prefers-color-scheme: light) {
+  /* Light mode styles here */
+  body {
     font-family: Arial, sans-serif;
     background-color: #e0e0e0;
     margin: 0;
@@ -7,6 +22,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
   }
+}
   
   h1, h2, p {
     margin: 10px;
@@ -62,7 +78,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-    background-color: #fff;
+    background-color: rgb(215, 215, 215);
     flex: 1;
   }
   
