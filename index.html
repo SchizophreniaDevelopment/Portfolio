@@ -3,6 +3,7 @@
   <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -24,15 +25,15 @@
       </p>
       <h2>Contact Me</h2>
       <p>You can contact me at noah.t.scott06@gmail.com</p>
-      <form method="post" action="sendemail.php">
+      <form id="contact-form">
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email"><br>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="message">Message:</label><br>
         <textarea id="message" name="message"></textarea><br><br>
-        <input type="submit" value="Send">
-      </form> 
+        <input type="submit" value="Send" onclick="sendEmail()">
+      </form>       
     </div>
     <footer>
       Copyright @NoahScott 2022 || <a href="https://github.com/bluewarrior777/Portfolio">See the source code to this site.</a>
