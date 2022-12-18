@@ -59,5 +59,14 @@ body {
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    background-color: #fff;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
   }
   
