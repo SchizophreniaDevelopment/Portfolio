@@ -13,6 +13,7 @@ function sendEmail() {
   .then(result => {
     console.log(result);
     clearForm();
+    window.location.replace('https://bluewarrior777.github.io/Portfolio/');
   });
 }
 
@@ -20,5 +21,3 @@ function clearForm() {
   // reset the forms
   document.getElementById('contact-form').reset();
 }
-
-window.location.replace('https://bluewarrior777.github.io/Portfolio/');
