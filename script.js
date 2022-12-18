@@ -19,5 +19,6 @@ function sendEmail() {
 function clearForm() {
   // reset the forms
   //document.getElementById('contact-form').reset();
-  location.reload();
+  //location.reload();
+  window.location.replace('https://bluewarrior777.github.io/Portfolio/');
 }
