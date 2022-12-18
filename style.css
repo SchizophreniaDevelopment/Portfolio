@@ -15,18 +15,21 @@ body {
     color: #333;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 20px;
   }
   
   h2 {
     font-size: 24px;
     color: #333;
     font-weight: bold;
+    margin-bottom: 10px;
   }
   
   p {
     font-size: 16px;
     color: #666;
     line-height: 1.5;
+    margin-bottom: 20px;
   }
   
   ul {
@@ -48,5 +51,13 @@ body {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
   }
   
