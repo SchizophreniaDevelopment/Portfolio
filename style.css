@@ -183,6 +183,7 @@
       color: #333;
       margin: 10px;
       font-weight: bold;
+      justify-content: left;
     }
   }
   
@@ -190,8 +191,8 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    justify-content: left;
+    justify-items: left;
   }
 
   img {
